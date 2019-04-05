@@ -1,9 +1,9 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 
-import LandingPage from "./landingpage";
-import AboutMe from "./aboutme";
-import Projects from "./projects";
+import LandingPage from "./landingPage";
+import AboutMe from "./aboutPage";
+import Projects from "./projectPage";
 
 const Main = () => (
   <Switch>

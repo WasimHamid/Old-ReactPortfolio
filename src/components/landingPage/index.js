@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import { Grid, Cell } from "react-mdl";
 
-class Landing extends Component {
+class Landing extends React.Component {
   render() {
     return (
       <div style={{ width: "100%", margin: "auto" }}>
@@ -13,7 +13,7 @@ class Landing extends Component {
               <h1>Wasim Hamid</h1>
               <h1>Junior Developer</h1>
 
-              <p>HTML/CSS | JavaScript | React | NodeJS | Express | MongoDB</p>
+              <p>React | JavaScript | HTML/CSS | Express | MongoDB</p>
 
               <div className="social-links">
                 <a
