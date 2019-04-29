@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
+import { Layout, Navigation, Drawer, Content } from "react-mdl";
 import Main from "../main";
 import { Link } from "react-router-dom";
 
@@ -9,20 +9,6 @@ class App extends React.Component {
     return (
       <div className="demo-big-content">
         <Layout>
-          <Header
-            className="header-color"
-            title={
-              <Link style={{ textDecoration: "none", color: "white" }} to="/">
-                MyPortfolio
-              </Link>
-            }
-            scroll
-          >
-            <Navigation>
-              <Link to="/aboutme">About Me</Link>
-              <Link to="/projects">Projects</Link>
-            </Navigation>
-          </Header>
           <Drawer
             title={
               <Link style={{ textDecoration: "none", color: "black" }} to="/">
@@ -33,6 +19,7 @@ class App extends React.Component {
             <Navigation>
               <Link to="/aboutme">About Me</Link>
               <Link to="/projects">Projects</Link>
+              <Link to="/contact">Contact Me</Link>
             </Navigation>
           </Drawer>
           <Content>

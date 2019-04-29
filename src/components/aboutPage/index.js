@@ -1,16 +1,15 @@
-import React from "react";
+import React, { Component } from "react";
 
-class About extends React.Component {
+// import css from "./aboutPage.module.css";
+
+class About extends Component {
   render() {
     return (
       <div>
-        <h3> My Favourite Hobbies </h3>
-        <h4>
+        <div>
+          <h2>My Favourite Hobbies</h2>
           <li>
             <b>Football</b>
-          </li>
-          <li>
-            <b>Gym</b>
           </li>
           <li>
             <b>Snooker</b>
@@ -30,10 +29,7 @@ class About extends React.Component {
           <li>
             <b>Basketball</b>
           </li>
-          <li>
-            <b>Computer Programming</b>
-          </li>
-        </h4>
+        </div>
       </div>
     );
   }
